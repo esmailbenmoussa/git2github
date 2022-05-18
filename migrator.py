@@ -133,7 +133,7 @@ class Migrator:
         self._git_clone_pull(repo_name)
         gh_repo = self._create_gh_repo(repo_name)
         if repo_size > 50000000:
-            print("Do nothing")
+            self.write_error_json(repo_name, "Too big repo")
         else:
             self._push_repo_gh(gh_repo, repo_name)
             status.list(4, repo_name, repo_size)
