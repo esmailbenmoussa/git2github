@@ -1,734 +1,734 @@
 [
   {
-    "name": "3rd-party-installers.git",
+    "name": "3rd-party-installers",
     "size": 52000000
   },
   {
-    "name": "actionsystem.git",
+    "name": "actionsystem",
     "size": 16000
   },
   {
-    "name": "diameter.git",
+    "name": "diameter",
     "size": 492
   },
   {
-    "name": "och.git",
+    "name": "och",
     "size": 20000
   },
   {
-    "name": "aiplatform.git",
+    "name": "aiplatform",
     "size": 32000
   },
   {
-    "name": "dsdp.git",
+    "name": "dsdp",
     "size": 54000
   },
   {
-    "name": "aiwb.git",
+    "name": "aiwb",
     "size": 31000
   },
   {
-    "name": "analytics.git",
+    "name": "analytics",
     "size": 200000
   },
   {
-    "name": "ice.git",
+    "name": "ice",
     "size": 55000
   },
   {
-    "name": "association.git",
+    "name": "association",
     "size": 11000
   },
   {
-    "name": "awx.git",
+    "name": "awx",
     "size": 184
   },
   {
-    "name": "biginsights.git",
+    "name": "biginsights",
     "size": 613000
   },
   {
-    "name": "bongo.git",
+    "name": "bongo",
     "size": 880
   },
   {
-    "name": "border-roaming.git",
+    "name": "border-roaming",
     "size": 54000
   },
   {
-    "name": "branches.git",
+    "name": "branches",
     "size": 40
   },
   {
-    "name": "build.git",
+    "name": "build",
     "size": 54000
   },
   {
-    "name": "build-slave-scripts.git",
+    "name": "build-slave-scripts",
     "size": 144
   },
   {
-    "name": "build-system-v3.git",
+    "name": "build-system-v3",
     "size": 265000
   },
   {
-    "name": "build-system-v4.git",
+    "name": "build-system-v4",
     "size": 54000
   },
   {
-    "name": "cfa.git",
+    "name": "cfa",
     "size": 13000
   },
   {
-    "name": "cleanroom-build-system.git",
+    "name": "cleanroom-build-system",
     "size": 353000
   },
   {
-    "name": "clients.git",
+    "name": "clients",
     "size": 84000
   },
   {
-    "name": "common.git",
+    "name": "common",
     "size": 32000
   },
   {
-    "name": "config.git",
+    "name": "config",
     "size": 40
   },
   {
-    "name": "libs.git",
+    "name": "libs",
     "size": 176000
   },
   {
-    "name": "cpp-ei-applications.git",
+    "name": "cpp-ei-applications",
     "size": 99000
   },
   {
-    "name": "cpp-ei-engine-services.git",
+    "name": "cpp-ei-engine-services",
     "size": 36000
   },
   {
-    "name": "cpp-ei-libs.git",
+    "name": "cpp-ei-libs",
     "size": 31000
   },
   {
-    "name": "cpp-ei-test-libs.git",
+    "name": "cpp-ei-test-libs",
     "size": 39000
   },
   {
-    "name": "customer_data.git",
+    "name": "customer_data",
     "size": 306000
   },
   {
-    "name": "damdaar.git",
+    "name": "damdaar",
     "size": 36000
   },
   {
-    "name": "dataingestion01.git",
+    "name": "dataingestion01",
     "size": 708
   },
   {
-    "name": "dataingestion.git",
+    "name": "dataingestion",
     "size": 27000
   },
   {
-    "name": "datamodel.git",
+    "name": "datamodel",
     "size": 242000
   },
   {
-    "name": "datamodel-metadata.git",
+    "name": "datamodel-metadata",
     "size": 19000
   },
   {
-    "name": "datascience.git",
+    "name": "datascience",
     "size": 13000000
   },
   {
-    "name": "datastore.git",
+    "name": "datastore",
     "size": 162000
   },
   {
-    "name": "deploy-everything-test-new.git",
+    "name": "deploy-everything-test-new",
     "size": 172
   },
   {
-    "name": "deployments.git",
+    "name": "deployments",
     "size": 17000
   },
   {
-    "name": "deployment-tools.git",
+    "name": "deployment-tools",
     "size": 347000
   },
   {
-    "name": "devops.git",
+    "name": "devops",
     "size": 67000
   },
   {
-    "name": "diameter-location-service.git",
+    "name": "diameter-location-service",
     "size": 292
   },
   {
-    "name": "drum.git",
+    "name": "drum",
     "size": 428
   },
   {
-    "name": "ee.git",
+    "name": "ee",
     "size": 47000
   },
   {
-    "name": "eicommon.git",
+    "name": "eicommon",
     "size": 36000
   },
   {
-    "name": "core.git",
+    "name": "core",
     "size": 747000
   },
   {
-    "name": "engine-core-interfaces.git",
+    "name": "engine-core-interfaces",
     "size": 30000
   },
   {
-    "name": "engine-customer-deployments.git",
+    "name": "engine-customer-deployments",
     "size": 740
   },
   {
-    "name": "engine-ewok-messages.git",
+    "name": "engine-ewok-messages",
     "size": 49000
   },
   {
-    "name": "engine.git",
+    "name": "engine",
     "size": 398000
   },
   {
-    "name": "engine-legacy.git",
+    "name": "engine-legacy",
     "size": 720
   },
   {
-    "name": "engine-reporting.git",
+    "name": "engine-reporting",
     "size": 108
   },
   {
-    "name": "engine-reporting-reporting-user-interface.git",
+    "name": "engine-reporting-reporting-user-interface",
     "size": 20000
   },
   {
-    "name": "engine-reporting-signalling-firewall-cfg-reader-main.git",
+    "name": "engine-reporting-signalling-firewall-cfg-reader-main",
     "size": 936
   },
   {
-    "name": "engine-reporting-signalling-firewall-cfg-writer-main.git",
+    "name": "engine-reporting-signalling-firewall-cfg-writer-main",
     "size": 420
   },
   {
-    "name": "engine-reporting-signalling-firewall-reporting-main.git",
+    "name": "engine-reporting-signalling-firewall-reporting-main",
     "size": 315000
   },
   {
-    "name": "engine-services.git",
+    "name": "engine-services",
     "size": 108
   },
   {
-    "name": "enterprise-service-platform.git",
+    "name": "enterprise-service-platform",
     "size": 57000
   },
   {
-    "name": "environ.git",
+    "name": "environ",
     "size": 852
   },
   {
-    "name": "epdata.git",
+    "name": "epdata",
     "size": 29000
   },
   {
-    "name": "ewokmockpeer.git",
+    "name": "ewokmockpeer",
     "size": 644
   },
   {
-    "name": "external-libs.git",
+    "name": "external-libs",
     "size": 20000000
   },
   {
-    "name": "extra.git",
+    "name": "extra",
     "size": 241000
   },
   {
-    "name": "firewall-insight.git",
+    "name": "firewall-insight",
     "size": 51000
   },
   {
-    "name": "fraudanalytics.git.bkp",
+    "name": "fraudanalytics.bkp",
     "size": 31000
   },
   {
-    "name": "fraud.git",
+    "name": "fraud",
     "size": 173000
   },
   {
-    "name": "git.git",
+    "name": "git",
     "size": 248
   },
   {
-    "name": "grqmodel.git",
+    "name": "grqmodel",
     "size": 688
   },
   {
-    "name": "homepolicy.git",
+    "name": "homepolicy",
     "size": 15000
   },
   {
-    "name": "ice.git",
+    "name": "ice",
     "size": 45000
   },
   {
-    "name": "lcor.git",
+    "name": "lcor",
     "size": 16000
   },
   {
-    "name": "wsms.git",
+    "name": "wsms",
     "size": 196
   },
   {
-    "name": "i000AS60.git",
+    "name": "i000AS60",
     "size": 125000
   },
   {
-    "name": "exporter.git",
+    "name": "exporter",
     "size": 35000
   },
   {
-    "name": "interconnectanalytics.git",
+    "name": "interconnectanalytics",
     "size": 584
   },
   {
-    "name": "ixc.git",
+    "name": "ixc",
     "size": 92000
   },
   {
-    "name": "jenkinsTestChild.git",
+    "name": "jenkinsTestChild",
     "size": 752
   },
   {
-    "name": "jenkinsTestParent.git",
+    "name": "jenkinsTestParent",
     "size": 100
   },
   {
-    "name": "jirarestclient.git",
+    "name": "jirarestclient",
     "size": 60000
   },
   {
-    "name": "kpiqueryserver.git",
+    "name": "kpiqueryserver",
     "size": 476
   },
   {
-    "name": "libs.git",
+    "name": "libs",
     "size": 47000
   },
   {
-    "name": "lifecycle.git",
+    "name": "lifecycle",
     "size": 32000
   },
   {
-    "name": "linkbit.git",
+    "name": "linkbit",
     "size": 39000
   },
   {
-    "name": "lte-steering.git",
+    "name": "lte-steering",
     "size": 22000
   },
   {
-    "name": "mapreduce.git",
+    "name": "mapreduce",
     "size": 282000
   },
   {
-    "name": "map-sms.git",
+    "name": "map-sms",
     "size": 656
   },
   {
-    "name": "maven-plugins.git",
+    "name": "maven-plugins",
     "size": 380
   },
   {
-    "name": "mergemodel.git",
+    "name": "mergemodel",
     "size": 728
   },
   {
-    "name": "000LL.git",
+    "name": "000LL",
     "size": 511000
   },
   {
-    "name": "msu-counter.git",
+    "name": "msu-counter",
     "size": 45000
   },
   {
-    "name": "ncc.git",
+    "name": "ncc",
     "size": 71000
   },
   {
-    "name": "network-access-control.git",
+    "name": "network-access-control",
     "size": 22000
   },
   {
-    "name": "network-connection-control.git",
+    "name": "network-connection-control",
     "size": 52000
   },
   {
-    "name": "nfv.git",
+    "name": "nfv",
     "size": 18000000
   },
   {
-    "name": "oam.git",
+    "name": "oam",
     "size": 16000
   },
   {
-    "name": "OfflineRepo.git",
+    "name": "OfflineRepo",
     "size": 45000000
   },
   {
-    "name": "optimal-routing.git",
+    "name": "optimal-routing",
     "size": 32000
   },
   {
-    "name": "ott.git",
+    "name": "ott",
     "size": 27000
   },
   {
-    "name": "pcap-processor.git",
+    "name": "pcap-processor",
     "size": 38000
   },
   {
-    "name": "personaclassification.git",
+    "name": "personaclassification",
     "size": 93000
   },
   {
-    "name": "playground.git",
+    "name": "playground",
     "size": 233000
   },
   {
-    "name": "post-call-notification.git",
+    "name": "post-call-notification",
     "size": 428
   },
   {
-    "name": "preferred-network.git",
+    "name": "preferred-network",
     "size": 59000
   },
   {
-    "name": "presto.git",
+    "name": "presto",
     "size": 182000
   },
   {
-    "name": "presto_himanshu.git",
+    "name": "presto_himanshu",
     "size": 84000
   },
   {
-    "name": "presto-mirror.git",
+    "name": "presto-mirror",
     "size": 162000
   },
   {
-    "name": "proteum.git",
+    "name": "proteum",
     "size": 52000
   },
   {
-    "name": "provisioning-landing-page.git",
+    "name": "provisioning-landing-page",
     "size": 11000
   },
   {
-    "name": "qa.git",
+    "name": "qa",
     "size": 57000000
   },
   {
-    "name": "quoui.git",
+    "name": "quoui",
     "size": 256000
   },
   {
-    "name": "rcem_crm.git",
+    "name": "rcem_crm",
     "size": 996
   },
   {
-    "name": "rcem_dashboards.git",
+    "name": "rcem_dashboards",
     "size": 20000
   },
   {
-    "name": "rcem.git",
+    "name": "rcem",
     "size": 136000
   },
   {
-    "name": "rcem_tracer.git",
+    "name": "rcem_tracer",
     "size": 43000
   },
   {
-    "name": "realtimekpi.git",
+    "name": "realtimekpi",
     "size": 49000
   },
   {
-    "name": "recordreader.git",
+    "name": "recordreader",
     "size": 52000
   },
   {
-    "name": "retired.git",
+    "name": "retired",
     "size": 516
   },
   {
-    "name": "rfc60.git",
+    "name": "rfc60",
     "size": 39000
   },
   {
-    "name": "ris.git",
+    "name": "ris",
     "size": 53000
   },
   {
-    "name": "roameranalytics.git",
+    "name": "roameranalytics",
     "size": 155000
   },
   {
-    "name": "roaminganalytics-env.git",
+    "name": "roaminganalytics-env",
     "size": 18000000
   },
   {
-    "name": "roaminganalytics.git",
+    "name": "roaminganalytics",
     "size": 26000000
   },
   {
-    "name": "RoamingAnalyticsWeb.git",
+    "name": "RoamingAnalyticsWeb",
     "size": 42000
   },
   {
-    "name": "rpms.git",
+    "name": "rpms",
     "size": 12000000
   },
   {
-    "name": "rpmsources.git",
+    "name": "rpmsources",
     "size": 82000
   },
   {
-    "name": "RRT.git",
+    "name": "RRT",
     "size": 67000
   },
   {
-    "name": "rulebuilder.git",
+    "name": "rulebuilder",
     "size": 44000
   },
   {
-    "name": "scrumqa.git",
+    "name": "scrumqa",
     "size": 64000
   },
   {
-    "name": "sensustech.git",
+    "name": "sensustech",
     "size": 108
   },
   {
-    "name": "sig-firewall-a2p.git",
+    "name": "sig-firewall-a2p",
     "size": 41000
   },
   {
-    "name": "sig-firewall-admi.git",
+    "name": "sig-firewall-admi",
     "size": 83000
   },
   {
-    "name": "sig-firewall-common.git",
+    "name": "sig-firewall-common",
     "size": 11000
   },
   {
-    "name": "sig-firewall-diameter.git",
+    "name": "sig-firewall-diameter",
     "size": 61000
   },
   {
-    "name": "sig-firewall-gtp.git",
+    "name": "sig-firewall-gtp",
     "size": 56000
   },
   {
-    "name": "sig-firewall-location-query.git",
+    "name": "sig-firewall-location-query",
     "size": 820
   },
   {
-    "name": "sig-firewall-message-store.git",
+    "name": "sig-firewall-message-store",
     "size": 27000
   },
   {
-    "name": "sig-firewall-nif-proxy.git",
+    "name": "sig-firewall-nif-proxy",
     "size": 620
   },
   {
-    "name": "sig-firewall-node-analytics.git",
+    "name": "sig-firewall-node-analytics",
     "size": 16000
   },
   {
-    "name": "sig-firewall-perf.git",
+    "name": "sig-firewall-perf",
     "size": 144
   },
   {
-    "name": "sig-firewall-provisioning.git",
+    "name": "sig-firewall-provisioning",
     "size": 31000
   },
   {
-    "name": "sig-firewall-raid.git",
+    "name": "sig-firewall-raid",
     "size": 565000
   },
   {
-    "name": "sig-firewall-rate-limit-store.git",
+    "name": "sig-firewall-rate-limit-store",
     "size": 19000
   },
   {
-    "name": "sig-firewall-sec-utility.git",
+    "name": "sig-firewall-sec-utility",
     "size": 20000
   },
   {
-    "name": "sig-firewall-sfwdemo.git",
+    "name": "sig-firewall-sfwdemo",
     "size": 42000
   },
   {
-    "name": "sig-firewall-similar-message-checker.git",
+    "name": "sig-firewall-similar-message-checker",
     "size": 24000
   },
   {
-    "name": "sig-firewall-sip.git",
+    "name": "sig-firewall-sip",
     "size": 34000
   },
   {
-    "name": "sig-firewall-sms-cache.git",
+    "name": "sig-firewall-sms-cache",
     "size": 11000
   },
   {
-    "name": "sig-firewall-sms-home-routing-store.git",
+    "name": "sig-firewall-sms-home-routing-store",
     "size": 988
   },
   {
-    "name": "sig-firewall-sub-store.git",
+    "name": "sig-firewall-sub-store",
     "size": 23000
   },
   {
-    "name": "sig-firewall-upgrade.git",
+    "name": "sig-firewall-upgrade",
     "size": 312
   },
   {
-    "name": "sig-firewall-url-filter.git",
+    "name": "sig-firewall-url-filter",
     "size": 25000
   },
   {
-    "name": "sig-firewall-utils.git",
+    "name": "sig-firewall-utils",
     "size": 26000
   },
   {
-    "name": "sig-firewall-wisdom.git",
+    "name": "sig-firewall-wisdom",
     "size": 17000000
   },
   {
-    "name": "sms-fraud.git",
+    "name": "sms-fraud",
     "size": 12000
   },
   {
-    "name": "spikes.git",
+    "name": "spikes",
     "size": 26000000
   },
   {
-    "name": "sqlbuilder.git",
+    "name": "sqlbuilder",
     "size": 11000
   },
   {
-    "name": "ss7-gateway.git",
+    "name": "ss7-gateway",
     "size": 38000
   },
   {
-    "name": "ss7.git",
+    "name": "ss7",
     "size": 12000
   },
   {
-    "name": "ss7-integration.git",
+    "name": "ss7-integration",
     "size": 72000
   },
   {
-    "name": "stats-base.git",
+    "name": "stats-base",
     "size": 216
   },
   {
-    "name": "steering.git",
+    "name": "steering",
     "size": 43000
   },
   {
-    "name": "streamingaipl.git",
+    "name": "streamingaipl",
     "size": 10000
   },
   {
-    "name": "streaming.git",
+    "name": "streaming",
     "size": 12000
   },
   {
-    "name": "subscriptionfraud.git",
+    "name": "subscriptionfraud",
     "size": 20000
   },
   {
-    "name": "syrei-tas.git",
+    "name": "syrei-tas",
     "size": 19000
   },
   {
-    "name": "tableau.git",
+    "name": "tableau",
     "size": 37000
   },
   {
-    "name": "telstra.git",
+    "name": "telstra",
     "size": 36000
   },
   {
-    "name": "templates.git",
+    "name": "templates",
     "size": 108
   },
   {
-    "name": "testfactory_automation.git",
+    "name": "testfactory_automation",
     "size": 108
   },
   {
-    "name": "test-tools.git",
+    "name": "test-tools",
     "size": 304
   },
   {
-    "name": "tools.git",
+    "name": "tools",
     "size": 19000
   },
   {
-    "name": "tracerutils.git",
+    "name": "tracerutils",
     "size": 388
   },
   {
-    "name": "travelprediction.git",
+    "name": "travelprediction",
     "size": 95000
   },
   {
-    "name": "UI.git",
+    "name": "UI",
     "size": 360000
   },
   {
-    "name": "uiservice.git",
+    "name": "uiservice",
     "size": 49000
   },
   {
-    "name": "userdocs.git",
+    "name": "userdocs",
     "size": 232
   },
   {
-    "name": "UserPersona.git",
+    "name": "UserPersona",
     "size": 69000
   },
   {
-    "name": "ussd-service-test-tool.git",
+    "name": "ussd-service-test-tool",
     "size": 344
   },
   {
-    "name": "vhe.git",
+    "name": "vhe",
     "size": 55000
   },
   {
-    "name": "vhev2.git",
+    "name": "vhev2",
     "size": 17000
   },
   {
-    "name": "vpn-demo.git",
+    "name": "vpn-demo",
     "size": 13000
   },
   {
-    "name": "welcome-sms.git",
+    "name": "welcome-sms",
     "size": 64000
   },
   {
-    "name": "wsms.git",
+    "name": "wsms",
     "size": 33000
   }
 ]
