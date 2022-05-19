@@ -14,9 +14,11 @@ class Migrator:
         self.gh_base = f"{gh_organization}/"
         self.auth_header_gh = self._authorization_header_gh(gh_token)
         self.repo_list = self.load_json_file("roaming_git_repo_list.json")
+        self.gh_repos = self._get_gh_repo()
         self.git_server = git_server
         self.working_path = working_path
         self.globalProps = {}
+        self.list = {}
 
     @staticmethod
     def _authorization_header_gh(pat: str) -> str:
@@ -90,7 +92,7 @@ class Migrator:
     def _delete_gh_repo(self, repo_name):
         print(f"Deleting {repo_name}")
         res = requests.delete(
-            f"https://api.github.com/repos/mobmigration/{repo_name}.git",
+            f"https://api.github.com/repos/mobmigration/{repo_name}",
             headers={
                 "Authorization": self.auth_header_gh,
                 "Content-Type": "application/json",
@@ -105,7 +107,11 @@ class Migrator:
                 "Content-Type": "application/json",
             },
         ).json()
-        return res
+        list = {}
+        for item in res:
+            list[item["name"]] = item["size"]
+        response = {"res": res, "list": list}
+        return response
 
     def _delete_local_repo(self, repo_name):
         os.chdir(self.working_path)
@@ -129,17 +135,21 @@ class Migrator:
 
     def _runner(self, repo):
         repo_name, repo_size = repo["name"], repo["size"]
-        status.list(0, repo_name, repo_size)
-        self._git_clone_pull(repo_name)
-        gh_repo = self._create_gh_repo(repo_name)
-        if repo_size > 50000000:
-            self.write_error_json(repo_name, "Too big repo")
-        else:
-            self._push_repo_gh(gh_repo, repo_name)
-            status.list(4, repo_name, repo_size)
-
-        # self._delete_gh_repo(repo_name)
-        # # self._delete_local_repo(repo_name)
+        gh_repos_names_size = self.gh_repos["list"]
+        gh_size = gh_repos_names_size[repo_name]
+        if gh_size < repo_size or repo_name not in gh_repos_names_size:
+            delete_flag = False
+            if delete_flag:
+                self._delete_gh_repo(repo_name)
+            else:
+                status.list(0, repo_name, repo_size)
+                self._git_clone_pull(repo_name)
+                gh_repo = self._create_gh_repo(repo_name)
+                if repo_size > 50000000:
+                    self.write_error_json(repo_name, "Too big repo")
+                else:
+                    self._push_repo_gh(gh_repo, repo_name)
+                    status.list(4, repo_name, repo_size)
 
     def initializer(self):
         # self._get_ado_repos()["value"]
