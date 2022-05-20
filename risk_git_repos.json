@@ -1,0 +1,530 @@
+[
+  {
+    "Repo": "FMSCloud/FraudBaseCloud81"
+  },
+  {
+    "Repo": "FMSCloud/cloudScripts"
+  },
+  {
+    "Repo": "RCM/portal"
+  },
+  {
+    "Repo": "FMSCloud/SubscriptionBaseCloud"
+  },
+  {
+    "Repo": "RCM/piracy-configs-setup"
+  },
+  {
+    "Repo": "Monitoring/Training"
+  },
+  {
+    "Repo": "FMSCloud/FraudBaseCloud"
+  },
+  {
+    "Repo": "ServiceAssurance/teg-offer-definitions"
+  },
+  {
+    "Repo": "RCM/iptv_handlers"
+  },
+  {
+    "Repo": "RAIDMLIntegration/irsf"
+  },
+  {
+    "Repo": "RCM/lists_handlers"
+  },
+  {
+    "Repo": "RAID Native Cloud/RAID Native Cloud"
+  },
+  {
+    "Repo": "FMSCloud/SubscriptionBaseWeMeet"
+  },
+  {
+    "Repo": "ServiceAssurance/ServiceAssuranceCloudBase81"
+  },
+  {
+    "Repo": "fraud-offers-definitions/prepaid-offer-definitions"
+  },
+  {
+    "Repo": "fraud-offers-definitions/irsf-offer-definitions-81"
+  },
+  {
+    "Repo": "RCM/NOS_TEST"
+  },
+  {
+    "Repo": "fraud-offers-definitions/irsf-offer-definitions"
+  },
+  {
+    "Repo": "EngCloudArch/CloudRFPs"
+  },
+  {
+    "Repo": "RAIDMLIntegration/MLIRSF_8.2_work"
+  },
+  {
+    "Repo": "RAIDCloudML/rcm"
+  },
+  {
+    "Repo": "fraud-offers-definitions/roamingfraud-offer-definitions"
+  },
+  {
+    "Repo": "CFA/WS"
+  },
+  {
+    "Repo": "RAIDCloudDevOps/RAIDCloudDevOps"
+  },
+  {
+    "Repo": "fraud-offers-definitions/bypass-offer-definitions"
+  },
+  {
+    "Repo": "RCM/aliexpress_scraper"
+  },
+  {
+    "Repo": "RCM/tvtap_monitor"
+  },
+  {
+    "Repo": "RCM/android_emulator"
+  },
+  {
+    "Repo": "RAIDCloudML/subscriptionfraud"
+  },
+  {
+    "Repo": "fraud-offers-definitions/highusage-offer-definitions"
+  },
+  {
+    "Repo": "CFA/CFA"
+  },
+  {
+    "Repo": "Digital Footprint/DRP AIO"
+  },
+  {
+    "Repo": "FMSCloud/FMSCloud"
+  },
+  {
+    "Repo": "RAIDCloudML/RAIDCloudML"
+  },
+  {
+    "Repo": "RCM/nsfw_detection_service"
+  },
+  {
+    "Repo": "CFA/FraudCodeBase"
+  },
+  {
+    "Repo": "FMSCloud/cloudback"
+  },
+  {
+    "Repo": "RCM/scoreboard_detection_service"
+  },
+  {
+    "Repo": "fraud-offers-definitions/subscription-offer-definitions"
+  },
+  {
+    "Repo": "RAIDCloudDevOps/mongors"
+  },
+  {
+    "Repo": "Common/Common"
+  },
+  {
+    "Repo": "TelusDevOps/TelusDevOps"
+  },
+  {
+    "Repo": "RCM/event_detection_service"
+  },
+  {
+    "Repo": "ThirdParties/h2database"
+  },
+  {
+    "Repo": "Digital Footprint/SkorrApp"
+  },
+  {
+    "Repo": "ServiceAssurance/teg-cis"
+  },
+  {
+    "Repo": "CFA/FA"
+  },
+  {
+    "Repo": "RAIDCloudML/extraction"
+  },
+  {
+    "Repo": "RAIDCloudML/generation"
+  },
+  {
+    "Repo": "RCM/p2p_monitor"
+  },
+  {
+    "Repo": "RAIDMLIntegration/smsspam"
+  },
+  {
+    "Repo": "Digital Footprint/SkorrBackend"
+  },
+  {
+    "Repo": "CloudSubscription/CloudSubscription"
+  },
+  {
+    "Repo": "CFA/Documentation"
+  },
+  {
+    "Repo": "Digital Footprint/Digital Footprint"
+  },
+  {
+    "Repo": "RiskCICD/InfrastructureDev_GCP"
+  },
+  {
+    "Repo": "RAIDMLIntegration/MLIRSF_8.2_work_Test"
+  },
+  {
+    "Repo": "fraud-offers-definitions/bypass-offer-definitions-81"
+  },
+  {
+    "Repo": "RCM/channel_detection_service"
+  },
+  {
+    "Repo": "RCM/iptv_monitor"
+  },
+  {
+    "Repo": "RCM/smart_crawler"
+  },
+  {
+    "Repo": "Digital Footprint/DigitalFootprintWeb"
+  },
+  {
+    "Repo": "OrchestratorCloud/OrchestratorCloud"
+  },
+  {
+    "Repo": "RAIDMLIntegration/RAIDMLIntegration"
+  },
+  {
+    "Repo": "RAIDCloudDevOps/terraform"
+  },
+  {
+    "Repo": "RCM/twitter_monitor"
+  },
+  {
+    "Repo": "RCM/lists_monitor"
+  },
+  {
+    "Repo": "AIDA/AIDA"
+  },
+  {
+    "Repo": "RCM/ipasn"
+  },
+  {
+    "Repo": "RCM/report_generator"
+  },
+  {
+    "Repo": "RAIDCloudML/active-learning"
+  },
+  {
+    "Repo": "CloudETL/CloudETL"
+  },
+  {
+    "Repo": "RCM/graph_updater"
+  },
+  {
+    "Repo": "OptiEdge/OptiEdge"
+  },
+  {
+    "Repo": "RAIDCloud site/RAIDCloud site"
+  },
+  {
+    "Repo": "Digital Footprint/DigitalFootprintBot"
+  },
+  {
+    "Repo": "RAIDCloud CMS/raidcloud-cms"
+  },
+  {
+    "Repo": "RAIDMLIntegration/bypass"
+  },
+  {
+    "Repo": "RCM/evidence_analyzer"
+  },
+  {
+    "Repo": "RCM/free_apps_monitor"
+  },
+  {
+    "Repo": "RAIDMLIntegration/robocalling"
+  },
+  {
+    "Repo": "RAIDMLIntegration/similars"
+  },
+  {
+    "Repo": "RCM/free_lists_monitor"
+  },
+  {
+    "Repo": "RAIDCloudML/mtrbypass"
+  },
+  {
+    "Repo": "FMSCloud/cloudpres"
+  },
+  {
+    "Repo": "RCM/custojusto_scraper"
+  },
+  {
+    "Repo": "RCM/lists_recorder"
+  },
+  {
+    "Repo": "RCM/olx_scraper"
+  },
+  {
+    "Repo": "RCM/results_aggregator"
+  },
+  {
+    "Repo": "RCM/iptv-offer-definitions"
+  },
+  {
+    "Repo": "RCM/acm_portal"
+  },
+  {
+    "Repo": "RCM/stream_evidence_grabber"
+  },
+  {
+    "Repo": "RCM/telegram_ingestion"
+  },
+  {
+    "Repo": "RCM/whatsapp_ingestion"
+  },
+  {
+    "Repo": "Digital Footprint/SafetyApp"
+  },
+  {
+    "Repo": "RCM/cloudpres_core"
+  },
+  {
+    "Repo": "RCM/telegram_downloader"
+  },
+  {
+    "Repo": "nattrmon-configs/nattrmon-configs"
+  },
+  {
+    "Repo": "RCM/cs_monitor"
+  },
+  {
+    "Repo": "RCM/lists_tester"
+  },
+  {
+    "Repo": "ServiceAssurance/ServiceAssuranceAddon"
+  },
+  {
+    "Repo": "RCM/aliexpress_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/custojusto_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/emails_downloader"
+  },
+  {
+    "Repo": "RCM/freeiptv_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/graph_services"
+  },
+  {
+    "Repo": "RCM/iptv_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/olx_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/p2p_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/twitter_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/webstreams_evidences_downloader"
+  },
+  {
+    "Repo": "UnifiedView/cloud-offers-unifiedview-ui"
+  },
+  {
+    "Repo": "RAIDCloud/raidcloud-client"
+  },
+  {
+    "Repo": "fraud-offers-definitions/bypassmtr-offer-definition"
+  },
+  {
+    "Repo": "Monitoring/Monitoring"
+  },
+  {
+    "Repo": "RiskCICD/External_openvpn-install"
+  },
+  {
+    "Repo": "FMSCloud/networkGen"
+  },
+  {
+    "Repo": "RAID Stories/RAID Stories"
+  },
+  {
+    "Repo": "RCM/marketplace_model_trainer"
+  },
+  {
+    "Repo": "Digital Footprint/DigitalFootprintAPIClient"
+  },
+  {
+    "Repo": "IPTVAdvertisement/IPTVAdvertisement"
+  },
+  {
+    "Repo": "RAIDCloud/raidcloud-api"
+  },
+  {
+    "Repo": "DevOps PrivateCloud/private-cloud"
+  },
+  {
+    "Repo": "Digital Footprint/UATServer"
+  },
+  {
+    "Repo": "RCM/list_downloader"
+  },
+  {
+    "Repo": "RiskCICD/InfrastructureDev_AWS"
+  },
+  {
+    "Repo": "Digital Footprint/DigitalFootprintRESTServer"
+  },
+  {
+    "Repo": "RAIDCloudML/aggregation"
+  },
+  {
+    "Repo": "RAIDCloudML/subscriptiontestform"
+  },
+  {
+    "Repo": "RCM/twitter_analyzer"
+  },
+  {
+    "Repo": "UnifiedView/cloud-offers-unifiedview-rest"
+  },
+  {
+    "Repo": "RAID Native Cloud/Packaging"
+  },
+  {
+    "Repo": "RAIDCloudDevOps/syncfiles"
+  },
+  {
+    "Repo": "Demo/Demo"
+  },
+  {
+    "Repo": "EngCloudArch/Documentation"
+  },
+  {
+    "Repo": "EngCloudArch/EngCloudArch"
+  },
+  {
+    "Repo": "EngCloudArch/Terraform"
+  },
+  {
+    "Repo": "EngCloudArch/lab"
+  },
+  {
+    "Repo": "IFDS/IFDS"
+  },
+  {
+    "Repo": "Orange/Orange"
+  },
+  {
+    "Repo": "RAID SDK/RAID SDK"
+  },
+  {
+    "Repo": "RAID SDK Public/RAID SDK Public"
+  },
+  {
+    "Repo": "RiskCICD/InfrastructureDemos_AWS"
+  },
+  {
+    "Repo": "RiskCICD/Terraform-Demos"
+  },
+  {
+    "Repo": "RiskCICD/TerraformTemplates"
+  },
+  {
+    "Repo": "RiskPE/RiskPE"
+  },
+  {
+    "Repo": "Vodafone/Vodafone"
+  },
+  {
+    "Repo": "DevOps PrivateCloud/DevOps PrivateCloud"
+  },
+  {
+    "Repo": "Digital Footprint/DigitalFootprintExtAPIs"
+  },
+  {
+    "Repo": "FMSCloud/fluent-bit-kubernetes-daemonset"
+  },
+  {
+    "Repo": "IFDS/IFDS"
+  },
+  {
+    "Repo": "IFDS/ifds-offer"
+  },
+  {
+    "Repo": "RAIDCloud/RAIDCloud"
+  },
+  {
+    "Repo": "RAIDCloud CMS/RAIDCloud CMS"
+  },
+  {
+    "Repo": "RAIDCloudML/frequentsets"
+  },
+  {
+    "Repo": "RAIDCloudML/heavyhitters"
+  },
+  {
+    "Repo": "RAIDCloudML/internships"
+  },
+  {
+    "Repo": "RAIDCloudML/training"
+  },
+  {
+    "Repo": "RCM/AddressInfo"
+  },
+  {
+    "Repo": "RCM/RCM"
+  },
+  {
+    "Repo": "RCM/announcer"
+  },
+  {
+    "Repo": "RCM/epg_grabber"
+  },
+  {
+    "Repo": "RCM/iptv_announcer"
+  },
+  {
+    "Repo": "RCM/list_send"
+  },
+  {
+    "Repo": "RCM/lists_proxy"
+  },
+  {
+    "Repo": "RCM/manual_evidences_downloader"
+  },
+  {
+    "Repo": "RCM/marketplace_data_collector"
+  },
+  {
+    "Repo": "RCM/piracy-offer-definitions"
+  },
+  {
+    "Repo": "RCM/proxy"
+  },
+  {
+    "Repo": "RCM/report_generator_api"
+  },
+  {
+    "Repo": "ROAMINGFRAUDCloud/ROAMINGFRAUDCloud"
+  },
+  {
+    "Repo": "ROAMINGFRAUDCloud/soft_fms_builds"
+  },
+  {
+    "Repo": "ServiceAssurance/ServiceAssurance"
+  },
+  {
+    "Repo": "ServiceAssurance/serviceassurance-mobile-app"
+  },
+  {
+    "Repo": "ServiceAssurance/teg-service-registrator"
+  },
+  {
+    "Repo": "UnifiedView/UnifiedView"
+  }
+]

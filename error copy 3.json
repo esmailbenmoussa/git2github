@@ -1,0 +1,9 @@
+{
+  "engine-reporting-signalling-firewall-cfg-writer-main": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//engine-reporting-signalling-firewall-cfg-writer-main.git', 'engine-reporting-signalling-firewall-cfg-writer-main']' return with error (code 128): None",
+  "i000AS60": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//i000AS60.git', 'i000AS60']' return with error (code 128): None",
+  "sig-firewall-diameter": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//sig-firewall-diameter.git', 'sig-firewall-diameter']' return with error (code 128): None",
+  "sig-firewall-perf": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//sig-firewall-perf.git', 'sig-firewall-perf']' return with error (code 128): None",
+  "sig-firewall-similar-message-checker": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//sig-firewall-similar-message-checker.git', 'sig-firewall-similar-message-checker']' return with error (code 128): None",
+  "sig-firewall-url-filter": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//sig-firewall-url-filter.git', 'sig-firewall-url-filter']' return with error (code 128): None",
+  "roaminganalytics-env": "command '['git', 'clone', '--bare', 'http://git@gitserver.mobileum.com/web//roaminganalytics-env.git', 'roaminganalytics-env']' return with error (code 128): None"
+}

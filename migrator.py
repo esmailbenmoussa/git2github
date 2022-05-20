@@ -44,6 +44,9 @@ class Migrator:
             try:
                 subprocess.check_call(["git", "fetch"])
             except subprocess.CalledProcessError as e:
+                error_msg = str(RuntimeError("command '{}' return with error (code {}): {}".format(
+                    e.cmd, e.returncode, e.output)))
+                self.write_json("error", repo_name, error_msg)
                 raise RuntimeError("command '{}' return with error (code {}): {}".format(
                     e.cmd, e.returncode, e.output))
         else:
@@ -54,7 +57,7 @@ class Migrator:
             except subprocess.CalledProcessError as e:
                 error_msg = str(RuntimeError("command '{}' return with error (code {}): {}".format(
                     e.cmd, e.returncode, e.output)))
-                self.write_error_json(repo_name, error_msg)
+                self.write_json("error", repo_name, error_msg)
                 raise RuntimeError("command '{}' return with error (code {}): {}".format(
                     e.cmd, e.returncode, e.output))
 
@@ -69,7 +72,14 @@ class Migrator:
             remote_url = gh_repo["clone_url"]
         subprocess.check_call(
             ["git", "remote", "set-url", "origin", remote_url])
-        subprocess.check_call(["git", "push", "-u", "origin", "--all"])
+        try:
+            subprocess.check_call(["git", "push", "-u", "origin", "--all"])
+        except subprocess.CalledProcessError as e:
+            error_msg = str(RuntimeError("command '{}' return with error (code {}): {}".format(
+                e.cmd, e.returncode, e.output)))
+            self.write_json("error", repo_name, error_msg)
+            raise RuntimeError("command '{}' return with error (code {}): {}".format(
+                e.cmd, e.returncode, e.output))
 
     def _create_gh_repo(self, repo_name):
         status.list(2, repo_name)
@@ -89,9 +99,10 @@ class Migrator:
         ).json()
         return res
 
-    def _delete_gh_repo(self, repo_name):
+    def _delete_gh_repo(self, repo):
+        repo_name = repo[0]
         print(f"Deleting {repo_name}")
-        res = requests.delete(
+        requests.delete(
             f"https://api.github.com/repos/mobmigration/{repo_name}",
             headers={
                 "Authorization": self.auth_header_gh,
@@ -101,7 +112,7 @@ class Migrator:
 
     def _get_gh_repo(self):
         res = requests.get(
-            f"{self.gh_base}repos",
+            f"{self.gh_base}repos?per_page=100",
             headers={
                 "Authorization": self.auth_header_gh,
                 "Content-Type": "application/json",
@@ -122,12 +133,12 @@ class Migrator:
         data = load(f)
         return data
 
-    def write_error_json(self, repo_name, error_msg):
-        with open("/Users/esmailbenmoussa/Solidify/git2github/error.json", 'r+') as file:
+    def write_json(self, file_name, repo_name, msg):
+        with open(fr"/Users/esmailbenmoussa/Solidify/git2github/{file_name}.json", 'r+') as file:
             # First we load existing data into a dict.
             file_data = load(file)
             # Join new_data with file_data inside emp_details
-            file_data[repo_name] = error_msg
+            file_data[repo_name] = msg
             # Sets file's current position at offset.
             file.seek(0)
             # convert back to json.
@@ -135,49 +146,31 @@ class Migrator:
 
     def _runner(self, repo):
         repo_name, repo_size = repo["name"], repo["size"]
-        gh_repos_names_size = self.gh_repos["list"]
-        gh_size = gh_repos_names_size[repo_name]
-        if gh_size < repo_size or repo_name not in gh_repos_names_size:
-            delete_flag = False
-            if delete_flag:
-                self._delete_gh_repo(repo_name)
+        # gh_size = 999999999
+        # if repo_name in gh_repos_names_size:
+        #     gh_size = gh_repos_names_size[repo_name]
+        status_file = self.load_json_file("status.json")
+        if repo_name not in status_file:
+            # if status_file.key(repo_name):
+            status.list(0, repo_name, repo_size)
+            self._git_clone_pull(repo_name)
+            gh_repo = self._create_gh_repo(repo_name)
+            if repo_size > 50000000:
+                self.write_json("error", repo_name, "Too big repo")
             else:
-                status.list(0, repo_name, repo_size)
-                self._git_clone_pull(repo_name)
-                gh_repo = self._create_gh_repo(repo_name)
-                if repo_size > 50000000:
-                    self.write_error_json(repo_name, "Too big repo")
-                else:
-                    self._push_repo_gh(gh_repo, repo_name)
-                    status.list(4, repo_name, repo_size)
+                self._push_repo_gh(gh_repo, repo_name)
+                status.list(4, repo_name, repo_size)
+                self.write_json("status", repo_name, "migrated")
+        else:
+            print(repo_name, " Already migrated!")
 
     def initializer(self):
-        # self._get_ado_repos()["value"]
-        pool = Pool()
-        pool.map(self._runner, self.repo_list)
-
-    # def _large_repo(self, gl_url: str, repo, team_name: str):
-    #     res = self._initialize_ado_repo(gl_url, repo, team_name, "Large")
-    #     print(res)
-    #     print(res["res"])
-
-    #     self._deploy_repo_ado(res["res"])
-    #     path = r"C:\Users\DV3903\Documents\gitlab_repos2"
-    #     os.chdir(fr"{path}")
-    #     repo_name = repo["name"]
-    #     ado_project_id, ado_repo_name = "d716d7af-90d2-402c-b379-cf14e36f6c3d", f"{team_name}_{repo_name}"
-    #     print(f"--- Cloning bare repo from {source}", repo_name)
-    #     size = "Large"
-    #     try:
-    #         subprocess.check_call(
-    #             ["git", "clone", "--bare", remote_url, repo_name])
-    #     except subprocess.CalledProcessError as e:
-    #         raise RuntimeError("command '{}' return with error (code {}): {}".format(
-    #             e.cmd, e.returncode, e.output))
-    #     # Clona non-bare project
-    #     # checka ut gammal commit
-    #     # pusha upp
-    #     # repetera till sista commit
-    #     # checka ut senaste commit
-    #     # clona till nytt bare project
-    #     # pusha upp
+        delete_flag = False
+        gh_repos_names_size = self.gh_repos["list"]
+        # Deletes all repos in GitHub
+        if delete_flag:
+            pool = Pool()
+            pool.map(self._delete_gh_repo, gh_repos_names_size.items())
+        else:
+            pool = Pool()
+            pool.map(self._runner, self.repo_list)
