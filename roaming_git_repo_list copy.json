@@ -1,0 +1,383 @@
+[
+  {
+    "name": "actionsystem"
+  },
+  {
+    "name": "diameter"
+  },
+  {
+    "name": "och"
+  },
+  {
+    "name": "aiplatform"
+  },
+  {
+    "name": "dsdp"
+  },
+  {
+    "name": "aiwb"
+  },
+  {
+    "name": "analytics"
+  },
+  {
+    "name": "ice"
+  },
+  {
+    "name": "association"
+  },
+  {
+    "name": "awx"
+  },
+  {
+    "name": "biginsights"
+  },
+  {
+    "name": "bongo"
+  },
+  {
+    "name": "border-roaming"
+  },
+  {
+    "name": "branches"
+  },
+  {
+    "name": "build"
+  },
+  {
+    "name": "build-slave-scripts"
+  },
+  {
+    "name": "build-system-v3"
+  },
+  {
+    "name": "build-system-v4"
+  },
+  {
+    "name": "cfa"
+  },
+  {
+    "name": "cleanroom-build-system"
+  },
+  {
+    "name": "clients"
+  },
+  {
+    "name": "common"
+  },
+  {
+    "name": "config"
+  },
+  {
+    "name": "libs"
+  },
+  {
+    "name": "customer_data"
+  },
+  {
+    "name": "damdaar"
+  },
+  {
+    "name": "dataingestion0.1"
+  },
+  {
+    "name": "dataingestion"
+  },
+  {
+    "name": "datamodel"
+  },
+  {
+    "name": "datamodel-metadata"
+  },
+  {
+    "name": "datascience"
+  },
+  {
+    "name": "datastore"
+  },
+  {
+    "name": "deploy-everything-test-new"
+  },
+  {
+    "name": "deployments"
+  },
+  {
+    "name": "deployment-tools"
+  },
+  {
+    "name": "devops"
+  },
+  {
+    "name": "drum"
+  },
+  {
+    "name": "ee"
+  },
+  {
+    "name": "core"
+  },
+  {
+    "name": "environ"
+  },
+  {
+    "name": "epdata"
+  },
+  {
+    "name": "ewokmockpeer"
+  },
+  {
+    "name": "extra"
+  },
+  {
+    "name": "fraudanalytics.bkp"
+  },
+  {
+    "name": "fraud"
+  },
+  {
+    "name": "git"
+  },
+  {
+    "name": "grqmodel"
+  },
+  {
+    "name": "homepolicy"
+  },
+  {
+    "name": "ice"
+  },
+  {
+    "name": "lcor"
+  },
+  {
+    "name": "wsms"
+  },
+  {
+    "name": "iMAS6.0"
+  },
+  {
+    "name": "exporter"
+  },
+  {
+    "name": "interconnectanalytics"
+  },
+  {
+    "name": "ixc"
+  },
+  {
+    "name": "jenkinsTestChild"
+  },
+  {
+    "name": "jenkinsTestParent"
+  },
+  {
+    "name": "jirarestclient"
+  },
+  {
+    "name": "kpiqueryserver"
+  },
+  {
+    "name": "libs"
+  },
+  {
+    "name": "lifecycle"
+  },
+  {
+    "name": "linkbit"
+  },
+  {
+    "name": "mapreduce"
+  },
+  {
+    "name": "maven-plugins"
+  },
+  {
+    "name": "mergemodel"
+  },
+  {
+    "name": "MLL"
+  },
+  {
+    "name": "msu-counter"
+  },
+  {
+    "name": "ncc"
+  },
+  {
+    "name": "nfv"
+  },
+  {
+    "name": "oam"
+  },
+  {
+    "name": "OfflineRepo"
+  },
+  {
+    "name": "ott"
+  },
+  {
+    "name": "personaclassification"
+  },
+  {
+    "name": "playground"
+  },
+  {
+    "name": "presto"
+  },
+  {
+    "name": "presto_himanshu"
+  },
+  {
+    "name": "presto-mirror"
+  },
+  {
+    "name": "proteum"
+  },
+  {
+    "name": "provisioning-landing-page"
+  },
+  {
+    "name": "qa"
+  },
+  {
+    "name": "quoui"
+  },
+  {
+    "name": "rcem_crm"
+  },
+  {
+    "name": "rcem_dashboards"
+  },
+  {
+    "name": "rcem"
+  },
+  {
+    "name": "rcem_tracer"
+  },
+  {
+    "name": "realtimekpi"
+  },
+  {
+    "name": "recordreader"
+  },
+  {
+    "name": "retired"
+  },
+  {
+    "name": "rfc6.0"
+  },
+  {
+    "name": "ris"
+  },
+  {
+    "name": "roameranalytics"
+  },
+  {
+    "name": "roaminganalytics-env"
+  },
+  {
+    "name": "roaminganalytics"
+  },
+  {
+    "name": "RoamingAnalyticsWeb"
+  },
+  {
+    "name": "rpms"
+  },
+  {
+    "name": "rpmsources"
+  },
+  {
+    "name": "RRT"
+  },
+  {
+    "name": "rulebuilder"
+  },
+  {
+    "name": "scrumqa"
+  },
+  {
+    "name": "sensustech"
+  },
+  {
+    "name": "sms-fraud"
+  },
+  {
+    "name": "spikes"
+  },
+  {
+    "name": "sqlbuilder"
+  },
+  {
+    "name": "stats-base"
+  },
+  {
+    "name": "steering"
+  },
+  {
+    "name": "streamingaipl"
+  },
+  {
+    "name": "streaming"
+  },
+  {
+    "name": "subscriptionfraud"
+  },
+  {
+    "name": "syrei-tas"
+  },
+  {
+    "name": "tableau"
+  },
+  {
+    "name": "telstra"
+  },
+  {
+    "name": "templates"
+  },
+  {
+    "name": "testfactory_automation"
+  },
+  {
+    "name": "test-tools"
+  },
+  {
+    "name": "tools"
+  },
+  {
+    "name": "tracerutils"
+  },
+  {
+    "name": "travelprediction"
+  },
+  {
+    "name": "UI"
+  },
+  {
+    "name": "uiservice"
+  },
+  {
+    "name": "userdocs"
+  },
+  {
+    "name": "UserPersona"
+  },
+  {
+    "name": "ussd-service-test-tool"
+  },
+  {
+    "name": "vhe"
+  },
+  {
+    "name": "vhev2"
+  },
+  {
+    "name": "vpn-demo"
+  },
+  {
+    "name": "welcome-sms"
+  },
+  {
+    "name": "wsms"
+  }
+]

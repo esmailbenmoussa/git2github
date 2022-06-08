@@ -1,0 +1,32 @@
+[
+  {
+    "name": "playground"
+  },
+  {
+    "name": "biginsights"
+  },
+  {
+    "name": "analytics"
+  },
+  {
+    "name": "datascience"
+  },
+  {
+    "name": "extra"
+  },
+  {
+    "name": "mapreduce"
+  },
+  {
+    "name": "fraud"
+  },
+  {
+    "name": "deployment-tools"
+  },
+  {
+    "name": "customer_data"
+  },
+  {
+    "name": "MLL"
+  }
+]
